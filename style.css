@@ -16,6 +16,8 @@ body{
 }
 
 .bottom{
+    width: 100%;
+    height: 30%;
     text-align: center;
 }
 

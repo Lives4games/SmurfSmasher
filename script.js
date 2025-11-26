@@ -84,7 +84,7 @@ function stretcherClicked(){
         stretcherPrice *= 1.85;
         stretcherPrice = Math.round(stretcherPrice);
         smurfsPerFifthSecond++;
-        document.getElementById("stretcherButton").src="stretcherClicked.png";
+        document.getElementById("stretcherButton").src="StretcherClicked.png";
         setTimeout (switchSBack,100);
         stretcherLevel++;
         if(!stretcherBought){
@@ -144,7 +144,7 @@ function switchHBack(){
 }
 
 function switchSBack(){
-    document.getElementById("stretcherButton").src="stretcher.png";
+    document.getElementById("stretcherButton").src="Stretcher.png";
 }
 
 function switchCBack(){
